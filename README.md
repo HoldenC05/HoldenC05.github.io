@@ -4,7 +4,8 @@ Welcome to my GitHub Pages website! Here you'll find a collection of my projects
 
 ## Projects
 
-### Project 1: [Arch Linux](https://github.com/HoldenC05/project1)
+### Project 1: [Arch Linux](https://HoldenC05.github.io/ArchLinuxProject.md)
+
 This project focuses on setting up an Arch Linux VM from scratch!
 
 <!--
