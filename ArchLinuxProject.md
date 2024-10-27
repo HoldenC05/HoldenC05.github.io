@@ -27,12 +27,14 @@
 7. Install base packages using `pacstrap`:
     - `pacstrap /mnt base linux linux-firmware`
     - Additional packages: `intel-ucode e2fsprogs sof-firmware netctl nano man-db man-pages texinfo`
+    - At this point in the future: Install a DHCP Client
 8. Generate `fstab` file:
     - `genfstab -U /mnt >> /mnt/etc/fstab`
 9. Change root into the new system:
     - `arch-chroot /mnt`
 10. Set the time zone:
      - `ln -sf /usr/share/zoneinfo/Region/City /etc/localtime`
+     - can't use `timedatectl`
      - `hwclock --systohc`
 11. Set locale:
      - Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8`
@@ -42,11 +44,10 @@
      - `echo "Holden-Arch" > /etc/hostname`
 13. Set root password:
      - `passwd`
-14. Clean install to fix issues if necessary.
 
 ### Install Desktop Environment
 1. Connect to WiFi:
-    - Use `systemd-networkd` (not `netctl`).
+    - Use `systemd-networkd` (not `netctl` if you don't have a DHCP Client).
 2. Install Budgie desktop environment:
     - `pacman -S budgie-desktop`
 3. Install Nautilus file manager:
@@ -56,6 +57,8 @@
 5. Install LightDM display manager:
     - `pacman -S lightdm 
     - Enable LightDM: `systemctl enable lightdm`
+    - Should Have enabled a Greeter but didn't - Used TTYL to install LightDM GTK Greeter (the default) 
+
 6. Install Terminator terminal emulator:
     - `pacman -S terminator`
 
@@ -85,8 +88,7 @@
   - Error: Failed to synchronize all databases (unexpected error)
 - Started with a clean install and it fixed our issue... i think i must have installed a package incorrectly
 - **DHCP Client**:
-  - 
-  Orginally used Netctl but did not have a DHCP client installed so switched to `systemd-networkd`.
+  - Orginally used Netctl but did not have a DHCP client installed so switched to `systemd-networkd`.
 - Next time, I will choose a DHCP client
 - **LightDM not booting**:
 - It said that boot failed because I did not have a boot helper.
