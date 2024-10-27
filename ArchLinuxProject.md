@@ -52,10 +52,9 @@
 3. Install Nautilus file manager:
     - `pacman -S nautilus`
 4. Configure `~/.xinitrc`:
-    - `export XDG_CURRENT_DESKTOP=Budgie:GNOME`
-    - `exec budgie-desktop`
+    - `XDG_CURRENT_DESKTOP=Budgie:GNOME`
 5. Install LightDM display manager:
-    - `pacman -S lightdm lightdm-gtk-greeter`
+    - `pacman -S lightdm 
     - Enable LightDM: `systemctl enable lightdm`
 6. Install Terminator terminal emulator:
     - `pacman -S terminator`
@@ -84,14 +83,18 @@
 ### Problems
 - **Pacman not working**:
   - Error: Failed to synchronize all databases (unexpected error)
-  - Solution: Redid install and fixed itself.
+- Started with a clean install and it fixed our issue... i think i must have installed a package incorrectly
 - **DHCP Client**:
-  - Orginally used Netctl but did not have a DHCP client installed so switched to `systemd-networkd`.
+  - 
+  Orginally used Netctl but did not have a DHCP client installed so switched to `systemd-networkd`.
+- Next time, I will choose a DHCP client
 - **LightDM not booting**:
+- It said that boot failed because I did not have a boot helper.
   - Solution: Use `Ctrl + Alt + F7` to boot into command line and install the helper.
+
   ### General Notes
   - `Ctrl +Alt +F7` goes to Typewriter mode which is not only faster when emulating but also can fix issues if you are having gui issues
-  - Would not want to use this for normal use as emulation is just too slow to be practical
+  - Would not want to use this VM for normal use as emulation is just too slow to be practical
 
 <!--
 - Using UTM
@@ -162,7 +165,7 @@ Used the preferences on my GUI to set color preferences for terminator - my term
 ### Problems
 - Pacman not working 
 	- Failed to synchronize all databases (unexpected error)
-	- Redid install and fixed itself
+	- Started from scratch and 
 	- 
 	- DHCP Client?
 		- Didn't have on installed so pivoting to systemd networkd
