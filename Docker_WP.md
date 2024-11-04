@@ -7,7 +7,7 @@
 **Install WordPress (Using a Git Repo)**
 - Clone the repository to obtain the .yml file without the need for manual copying and pasting
 	- `sudo git clone https://github.com/Alujjdnd/DockerWordpress.git`
-	- [What the .yml looks like](YML_File.md)
+	- [What the .yml looks like](Docker-Compose-WP.yml)
 - Install Other Necessary Packages Just in Case
 	- `sudo apt-get install libffi-dev libssl-dev`
 	- `sudo apt install python3-dev`
