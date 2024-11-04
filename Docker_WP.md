@@ -4,7 +4,7 @@
 - Install Docker Composer
 	`sudo apt install docker-compose`
 
-**Install WordPress (Using a Git Repo)
+**Install WordPress (Using a Git Repo)**
 - Clone repo to build .yml file (so i didn't have to copy and paste it)
 	- `sudo git clone https://github.com/Alujjdnd/DockerWordpress.git`
 - Install other neccessary packages just in case
@@ -12,18 +12,18 @@
 	- `sudo apt install python3-dev`
 	- `sudo apt-get install -y python3 python3-pip`
 
-**Fixing Errors
+**Fixing Errors**
 - Try and build the docker container
 	- `docker-compose up`
 	- Would not build  - "Permission Denied"
 		- `sudo usermod -aG docker $USER`
 		- `sudo systemctl restart docker`
 
-**Worked!!
+**Worked!!**
 - Build the container
 	- `sudo docker-compose up`
 
-**Access gui using web
+**Access gui using web**
 - go to localhost/ on web
 - Follow gui steps to define username and password etc.
 
