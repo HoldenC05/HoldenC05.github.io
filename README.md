@@ -9,7 +9,7 @@ Welcome to my GitHub Pages website! Here you'll find a collection of my projects
 This project focuses on setting up an Arch Linux VM from scratch!
 
 
-### Project 2: [Docker_WP](Docker_WP.md)
+### Project 2: [Docker With Word Press](Docker_WP.md)
 This project focuses on setting up Word Press with a docker container, inside of an ubuntu linux VM.
 
 <!--

@@ -34,3 +34,10 @@
 ![Screenshot of Docker installation step 3](Picture/Screenshot 2024-11-03 at 4.52.33 PM.png?raw=true "3")
 
 ![WordPress setup final step](Picture/Screenshot 2024-11-03 at 4.52.55 PM.png?raw=true "4")
+
+
+**Credits**
++ [Jiuyu via Medium](https://jiuyu.medium.com/how-to-install-a-wordpress-docker-container-on-arm-861cf36fb371)
++ [How to Geek](https://www.howtogeek.com/devops/how-to-quickly-deploy-wordpress-as-a-docker-container/)
++ [WP Fame](https://wpfame.com/wordpress-with-docker/)
++ AI With Perplexity to problem solve issues - [perplexity.ai](https://www.perplexity.ai/search/new?q=pending&newFrontendContextUUID=cf9a5cf2-2cbf-4203-9250-38b8bcb2128e)
