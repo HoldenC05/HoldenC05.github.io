@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 relative_links:
   enabled: true
   collections: true
@@ -14,7 +15,7 @@ include:
   - PULL_REQUEST_TEMPLATE.md
   
   theme: jekyll-theme-slate
-remote_theme: pages-themes/slate@v0.2.0
+  remote_theme: pages-themes/slate@v0.2.0
 
 title: Holden Caldwell
 description: This is a website built to share code and other projects written by Holden Caldwell
