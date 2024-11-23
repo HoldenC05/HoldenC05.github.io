@@ -10,13 +10,12 @@ This project focuses on setting up an Arch Linux VM from scratch!
 
 
 ### Project 2: [Docker With Word Press](Docker_WP.md)
-This project focuses on setting up Word Press with a docker container, inside of an ubuntu linux VM.
+This project focuses on setting up Word Press with a docker container, inside of an Ubuntu Linux VM.
 
-<!--
-### Project 3: [Project Title](https://github.com/HoldenC05/project3)
-A brief description of Project 3. This project involves...
 
---->
+### Project 3: [Wireguard VPN with Digital Ocean](WireguardProject.md)
+In this project, I set up a VPN through a Digital Ocean droplet out of New Jersey using Wireguard.
+
 
 ## Contact
 
