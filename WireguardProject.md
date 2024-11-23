@@ -29,11 +29,11 @@
         - Use the Wireguard PC app to enable the tunnel
 
 ## Pics or it didn't happen
-![Iphone Screenshot 1](HoldenC05.github.io/Picture/D1349372-AFFB-4A6C-8AC8-46A162E685D1_4_5005_c.jpeg)
-![Iphone Screenshot 2](HoldenC05.github.io/Picture/2B72BA16-62BA-4B4F-909C-6069D0C072CF_4_5005_c.jpeg)
-![Mac Pic1](HoldenC05.github.io/Picture/Screenshot 2024-11-23 at 3.20.56 PM.png)
-![Mac Pic 2](HoldenC05.github.io/Picture/Screenshot 2024-11-23 at 3.54.40 PM.png)
-![Mac pic 3](HoldenC05.github.io/Picture/Screenshot 2024-11-23 at 3.55.11 PM.png)
+![Iphone Screenshot 1](Picture/2B72BA16-62BA-4B4F-909C-6069D0C072CF_4_5005_c.jpeg)
+![Iphone Screenshot 2](Picture/D1349372-AFFB-4A6C-8AC8-46A162E685D1_4_5005_c.jpeg)
+![Mac Pic1](Picture/Screenshot 2024-11-23 at 3.20.56 PM.png)
+![Mac Pic 2](Picture/Screenshot 2024-11-23 at 3.54.40 PM.png)
+![Mac pic 3](Picture/Screenshot 2024-11-23 at 3.55.11 PM.png)
 
 
 
